@@ -1,0 +1,21 @@
+:root {
+  --color-bg: #f8fafc;
+  --color-text: #0f1728;
+  --color-accent: #2563eb;
+}
+*, *::before, *::after { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  background: var(--color-bg);
+  color: var(--color-text);
+  line-height: 1.6;
+}
+.nav { display: flex; justify-content: space-between; align-items: center; padding: 1rem; }
+.nav__links { display: flex; gap: 1rem; list-style: none; margin: 0; }
+.hero { padding: 4rem 1rem; text-align: center; }
+.projects { padding: 2rem 1rem; }
+.projects__grid { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); }
+.card { border: 1px solid #e2e8f0; border-radius: 8px; padding: 1rem; }
+.btn { display: inline-block; background: var(--color-accent); color: #fff; padding: 0.6rem 1.2rem; border-radius: 6px; text-decoration: none; }
+.site-footer { padding: 2rem 1rem; }
