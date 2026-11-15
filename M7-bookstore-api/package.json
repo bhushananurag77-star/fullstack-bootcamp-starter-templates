@@ -1,0 +1,7 @@
+{
+  "name": "m7-bookstore-api",
+  "version": "0.1.0",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "dependencies": { "express": "^4.19.2" }
+}
